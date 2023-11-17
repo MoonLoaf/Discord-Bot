@@ -1,8 +1,8 @@
-# Discord Wordle Bot
+# Discord Bot
 
 ## Overview
 
-Welcome to my Discord Wordle Bot! This bot, written in Rust using [Serenity](https://crates.io/crates/serenity) and [Tokio](https://crates.io/crates/tokio). The primary feature for now is a Wordle minigame that can be triggered in your Discord server using the command `!wordle`.
+Welcome to my Discord Wordle Bot! This bot is written in Rust using [Serenity](https://crates.io/crates/serenity) and [Tokio](https://crates.io/crates/tokio). The primary feature for now is a Wordle minigame that can be triggered in your Discord server using the command `!wordle`.
 
 ## Features
 

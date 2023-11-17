@@ -1,4 +1,5 @@
 use std::env;
+use dotenv::dotenv;
 use std::collections::HashSet;
 use std::fs::File;
 use std::io::{self};
@@ -157,6 +158,7 @@ impl EventHandler for Handler {
 #[tokio::main]
 async fn main() {
     // Configure the client with your Discord bot token in the environment.
+    dotenv().ok();
     let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
     let intents = GatewayIntents::GUILD_MESSAGES
         | GatewayIntents::DIRECT_MESSAGES

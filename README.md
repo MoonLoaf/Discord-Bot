@@ -23,7 +23,7 @@ git clone https://github.com/Moonloaf/discord-bot.git
 
 ```bash
 
-cd discord-wordle-bot
+cd discord-bot
 cargo build --release
 ```
 
